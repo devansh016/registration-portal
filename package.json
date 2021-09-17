@@ -1,0 +1,34 @@
+{
+  "name": "registration-portal",
+  "version": "1.0.0",
+  "description": "A web app to register user for a event and collect payment using razorpay.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "Devansh Chaudhary",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "crypto": "^1.0.1",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "googleapis": "^87.0.0",
+    "mongoose": "^6.0.6",
+    "razorpay": "^2.0.6"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devansh016/registration-portal.git"
+  },
+  "keywords": [
+    "razorpay",
+    "nodejs",
+    "mongodb"
+  ],
+  "bugs": {
+    "url": "https://github.com/devansh016/registration-portal/issues"
+  },
+  "homepage": "https://github.com/devansh016/registration-portal#readme"
+}
