@@ -1,4 +1,4 @@
-base_url = "https://tiedc.herokuapp.com";
+base_url = "http://localhost";
 
 function register(){
     var data = JSON.stringify({
@@ -35,7 +35,7 @@ function register(){
                 "key": response.data.razorpay_key_id,
                 "amount": response.data.amount,
                 "currency": response.data.currency,
-                "name": "TIEDC",
+                "name": "E-Cell",
                 "description": "E-Summit Registration",
                 "image": base_url + '/logo-white.png',
                 "order_id": response.data.order_id, 
