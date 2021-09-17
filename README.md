@@ -9,7 +9,10 @@ MONGODB_URL = ""
 spreadsheetId = ""
 ```
 ## Google Credentials for sheets
-You will need to get a google credentials json file from google console for google sheet api and you have to create a google sheet. Add the client email you created in the google console to the google sheets as a editor and copy the spreadsheetid from the google sheet url.
+You will need to get a google credentials json file from google console for google sheet api and you have to create a google sheet.
+https://youtu.be/1QFLfvvjmkQ
+
+Add the client email you created in the google console to the google sheets as a editor and copy the spreadsheetid from the google sheet url.
 For example https://docs.google.com/spreadsheets/d/1reuufhreoifuYHUBYU32B/edit#gid=0 the spreadsheet id is 1reuufhreoifuYHUBYU32B.
 
 If you dont want to use google sheets you can remove the following lines from paymentController.js
